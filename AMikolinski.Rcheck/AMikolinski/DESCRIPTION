@@ -1,0 +1,18 @@
+Package: AMikolinski
+Title: Utilities for subsetting location data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Andrew", "Mikolinski", , "amikol2@lsu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0008-4929-6304"))
+Description: Contains several commands that are useful for sub setting data where the data frame contains coordinates. Each of the 4 functions generates a line between two provided sets of coordinates and will essentially cut a right triangle out of the data frame where the ends of the hypotenuse are the two provided coordinates. The draw_complex command will allow you to do this with more complex shapes consisting of 3 provided sets of coordinates. The plot_data function will plot the data frames you have created on a US map.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2023-12-03 00:35:04 UTC; andre
+Author: Andrew Mikolinski [aut, cre] (<https://orcid.org/0009-0008-4929-6304>)
+Maintainer: Andrew Mikolinski <amikol2@lsu.edu>
+Built: R 4.2.2; ; 2023-12-03 00:35:11 UTC; windows
